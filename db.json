@@ -1,9 +1,100 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone X",
+      "company": "apple",
+      "price": 6000000,
+      "colors": ["#000000", "#ff0000", "#CDDD0D"],
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "description": "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. Perfect for selfie lovers with 100mp front camera.",
+      "category": "mobile",
+      "featured": true,
+      "shipping": true
+    },
+    {
+      "id": "2",
+      "name": "Samsung S20",
+      "company": "samsung",
+      "price": 5000000,
+      "colors": ["#22D3EF", "#000000"],
+      "image": "https://unsplash.com/photos/black-iphone-7-on-black-surface-bR_r3fJu-vk",
+      "description": "Flagship phone with excellent camera and display.",
+      "category": "mobile",
+      "featured": true,
+      "shipping": true
+    },
+    {
+      "id": "3",
+      "name": "Wireless Earbuds",
+      "company": "boat",
+      "price": 299999,
+      "colors": ["#000000", "#ffffff"],
+      "image": "https://unsplash.com/photos/apple-earpods-beside-apple-airpods-mx4oQdFJ2rY",
+      "description": "Premium wireless earbuds with noise cancellation.",
+      "category": "accessories",
+      "featured": false,
+      "shipping": true
+    },
+    {
+      "id": "4",
+      "name": "Smart Watch",
+      "company": "apple",
+      "price": 2499999,
+      "colors": ["#22D3EF", "#ff0000"],
+      "image": "https://unsplash.com/photos/black-smart-watch-with-black-strap-2wFoa040m8g",
+      "description": "Advanced smartwatch with health tracking features.",
+      "category": "watch",
+      "featured": true,
+      "shipping": true
+    },
+    {
+      "id": "5",
+      "name": "Lenovo Laptop",
+      "company": "lenova",
+      "price": 4500000,
+      "colors": ["#000000"],
+      "image": "https://unsplash.com/photos/modern-laptop-displaying-a-vibrant-landscape-on-screen-zCTO-wSA--k",
+      "description": "Powerful laptop for work and gaming.",
+      "category": "laptop",
+      "featured": false,
+      "shipping": true
+    },
+    {
+      "id": "6",
+      "name": "OnePlus 9",
+      "company": "oneplus",
+      "price": 5500000,
+      "colors": ["#000000", "#22D3EF"],
+      "image": "https://unsplash.com/photos/gold-iphone-6-on-black-stone-ByeJdUT5e94",
+      "description": "Smooth performance with great camera system.",
+      "category": "mobile",
+      "featured": false,
+      "shipping": true
+    },
+    {
+      "id": "7",
+      "name": "Power Bank",
+      "company": "mi",
+      "price": 199999,
+      "colors": ["#000000", "#ff0000"],
+      "image": "https://unsplash.com/photos/person-holding-green-and-white-box-3AOcW3ev8UE",
+      "description": "Fast charging 20000mAh power bank.",
+      "category": "accessories",
+      "featured": false,
+      "shipping": true
+    },
+    {
+      "id": "8",
+      "name": "Samsung Watch",
+      "company": "samsung",
+      "price": 1899999,
+      "colors": ["#000000", "#22D3EF"],
+      "image": "https://unsplash.com/photos/a-close-up-of-a-watch-on-a-table-N2SL3YWInWY",
+      "description": "Stylish smartwatch with multiple features.",
+      "category": "watch",
+      "featured": true,
+      "shipping": true
+    }
+  ]
 }
