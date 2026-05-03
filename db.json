@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
       "id": "1",
       "name": "iPhone X",
@@ -109,4 +108,3 @@
       "shipping": true
     }
   ]
-}
